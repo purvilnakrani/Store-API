@@ -17,7 +17,6 @@ Open this project on your local IDE and in the terminal do this commands one by 
  ```
  npm install
  npm run start
-
 ```
 
 Before running code do not forget to change database connection url, To get that url go to mongodb atlas cluster -> connect -> driver
@@ -38,27 +37,6 @@ localhost:3000/
 - get list static producta from store
 ```http
   GET /products/static
-```
-
-
-Returns the newly created booking in JSON format
-
-
-## Deployment
-Here is the links of deployed project
-
-- For Frontend
-
-```https
-https://bookmyshow11.netlify.app/
-
-```
-
-- For Backend
-
-```https
-https://capstone-project-1wft.onrender.com/api/bookings
-
 ```
 
 
