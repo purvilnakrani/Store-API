@@ -30,25 +30,25 @@ Base URL
 localhost:3000/
 ```
 
-- get list of all producta from store
+- get list of all products from store
 ```http
   GET /products
 ```
-- get list static producta from store
+- get list of static products from store
 ```http
   GET /products/static
 ```
 - Url query searching
 ```http
-  GET /products?name=bench&featuted=true
+  GET /products?name=bench&featured=true
 ```
 - Url query searching (page)
 ```http
-  GET /products?featuted=false&page=2
+  GET /products?featured=false&page=2
 ```
 - Url query searching (enum)
 ```http
-  GET /products?featuted=false&company=ikea
+  GET /products?featured=false&company=ikea
 ```
 - Url query searching (Numeric filters)
 - ```http
