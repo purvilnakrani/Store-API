@@ -1,6 +1,6 @@
 # STORE API
 
-This store api created to get all awailable items from the store database. Ex- A store having woodnen chair, dining table, bench etc with details of company name , featured, rating, price.
+This store api created to get all available items from the store database. Ex- A store having wooden chair, dining table, bench etc with details of company name , featured, rating, price.
 
 
 ## Installation
