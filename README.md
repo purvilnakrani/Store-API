@@ -59,9 +59,5 @@ localhost:3000/
 
 
 ## Tech Stack
-
-
 **Server:** Node, Express
-
 **database:** MongoDB
-
