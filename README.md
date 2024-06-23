@@ -1,6 +1,6 @@
 # STORE API
 
-This store api created to get all awailable items from the store database. Ex- A store having woodnen chair, dining table, bench etc with details of company name ,rating, price.
+This store api created to get all awailable items from the store database. Ex- A store having woodnen chair, dining table, bench etc with details of company name , featured, rating, price.
 
 
 ## Installation
@@ -38,6 +38,24 @@ localhost:3000/
 ```http
   GET /products/static
 ```
+- Url query searching
+```http
+  GET /products?name=bench&featuted=true
+```
+- Url query searching (page)
+```http
+  GET /products?featuted=false&page=2
+```
+- Url query searching (enum)
+```http
+  GET /products?featuted=false&company=ikea
+```
+- Url query searching (Numeric filters)
+- ```http
+  GET /products?numericFilters=price<100,rating>=4
+```
+
+
 
 
 ## Tech Stack
