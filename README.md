@@ -55,9 +55,7 @@ localhost:3000/
   GET /products?numericFilters=price<100,rating>=4
 ```
 
-
-
-
 ## Tech Stack
+
 **Server:** Node, Express
 **database:** MongoDB
