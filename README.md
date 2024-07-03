@@ -1,9 +1,11 @@
-# STORE API
+# `STORE API`
 
 This store api created to get all available items from the store database. Ex- A store having wooden chair, dining table, bench etc with details of company name , featured, rating, price.
 
+### `Deploy Link` <br/>
+ https://store-api-1211.onrender.com<br>
 
-## Installation
+## `Installation`
 
 If you want to work on this project , clone this repo
 
@@ -23,7 +25,7 @@ Before running code do not forget to change database connection url, To get that
 Ex:- `MONGODBURI: mongodb+srv://<user_name>:<password>@mongodb_connection_string/database_name`
 
 
-## API Reference
+## `API Reference`
 
 Base URL
 ```https
@@ -51,11 +53,11 @@ localhost:3000/
   GET /products?featured=false&company=ikea
 ```
 - Url query searching (Numeric filters)
-- ```http
+ ```http
   GET /products?numericFilters=price<100,rating>=4
 ```
 
-## Tech Stack
+## `Tech Stack`
 
 **Server:** Node, Express
 **database:** MongoDB
