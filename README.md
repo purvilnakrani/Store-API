@@ -5,6 +5,8 @@ This store api created to get all available items from the store database. Ex- A
 ### `Deploy Link` <br/>
  https://store-api-1211.onrender.com<br>
 
+ Wait for few seconds, if url is loading, This happens because of free hosting services.
+
 ## `Installation`
 
 If you want to work on this project , clone this repo
@@ -29,7 +31,7 @@ Ex:- `MONGODBURI: mongodb+srv://<user_name>:<password>@mongodb_connection_string
 
 Base URL
 ```https
-localhost:3000/
+localhost:3000/api/v1
 ```
 
 - get list of all products from store
