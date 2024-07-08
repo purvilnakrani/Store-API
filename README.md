@@ -3,7 +3,8 @@
 This store api created to get all available items from the store database. Ex- A store having wooden chair, dining table, bench etc with details of company name , featured, rating, price.
 
 ### `Deploy Link` <br/>
- https://store-api-1211.onrender.com<br>
+ https://store-api-1211.onrender.com /api/v1<br>
+ 
 
  Wait for few seconds, if url is loading, This happens because of free hosting services.
 
